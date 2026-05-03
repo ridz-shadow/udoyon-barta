@@ -945,6 +945,9 @@ if ( isset( $locations[ $menu_name ] ) ) {
                         <?php endif; endif; ?>
                     </div>
                     <div class="col-lg-3 col-12 mt-3">
+                        <?php if (is_active_sidebar('beside-lead')) : ?>
+                            <?php dynamic_sidebar('beside-lead'); ?>
+                        <?php endif; ?>
                         <div class="DRightSideAdd MobileHide">
                             <!-- Advertisement -->
                         </div>
