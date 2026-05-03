@@ -200,7 +200,7 @@ function customize_register($wp_customize) {
         'sanitize_callback' => 'sanitize_text_field',
     ) );
     $wp_customize->add_control( 'header_button_3_label_control', array(
-        'label'    => __('Button 2 Label', 'samakal'),
+        'label'    => __('Button 3 Label', 'samakal'),
         'section'  => 'title_tagline',
         'settings' => 'header_button_3_label',
         'type'     => 'text',
@@ -211,7 +211,7 @@ function customize_register($wp_customize) {
         'sanitize_callback' => 'esc_url_raw',
     ) );
     $wp_customize->add_control( 'header_button_3_url_control', array(
-        'label'    => __('Button 2 URL', 'samakal'),
+        'label'    => __('Button 3 URL', 'samakal'),
         'section'  => 'title_tagline',
         'settings' => 'header_button_3_url',
         'type'     => 'url',
