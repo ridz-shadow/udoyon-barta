@@ -720,7 +720,7 @@ function register_widget_areas() {
         'description'   => __('Add widgets here.'),
         'before_widget' => '',
         'after_widget'  => '',
-        'before_title'  => '<div class="SectionTitle"><h3>',
+        'before_title'  => '<div class="SectionTitle" style="margin-bottom: 15px;"><h3>',
         'after_title'   => '</h3></div>',
     ));
 }
