@@ -459,6 +459,7 @@
     src="https://www.facebook.com/tr?id=<?php echo esc_attr(get_theme_mod("fb_pixel_id")); ?>&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Facebook Pixel Code -->
+    <?php wp_head(); ?>
 </head>
 
 <body>

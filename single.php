@@ -378,7 +378,7 @@
             ?>&ev=PageView&noscript=1"
         /></noscript>
     <!-- End Facebook Pixel Code -->
-
+    <?php wp_head(); ?>
 </head>
 
 <body>
