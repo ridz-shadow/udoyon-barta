@@ -2335,6 +2335,9 @@ if ( isset( $locations[ $menu_name ] ) ) {
                         <?php endif; endif; ?>
                     </div>
                     <div class="col-lg-3">
+                        <?php if (is_active_sidebar('beside-lifestyle')) : ?>
+                            <?php dynamic_sidebar('beside-lifestyle'); ?>
+                        <?php endif; ?>
                         <div class="DPrayer skeleton">
                             <!-- Advertisement -->
                         </div>

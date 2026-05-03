@@ -712,3 +712,16 @@ function set_post_views($postID) {
         update_post_meta($postID, $count_key, $count);
     }
 }
+
+function register_widget_areas() {
+    register_sidebar(array(
+        'name'          => __('Beside Lifestyle'),
+        'id'            => 'beside-lifestyle',
+        'description'   => __('Add widgets here.'),
+        'before_widget' => '',
+        'after_widget'  => '',
+        'before_title'  => '',
+        'after_title'   => '',
+    ));
+}
+add_action('widgets_init', 'register_widget_areas');
