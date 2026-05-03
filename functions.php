@@ -723,5 +723,15 @@ function register_widget_areas() {
         'before_title'  => '<div class="SectionTitle" style="margin-bottom: 15px;"><h3>',
         'after_title'   => '</h3></div>',
     ));
+
+    register_sidebar(array(
+        'name'          => __('Beside Lead'),
+        'id'            => 'beside-lead',
+        'description'   => __('Add widgets here.'),
+        'before_widget' => '',
+        'after_widget'  => '',
+        'before_title'  => '<div class="SectionTitle" style="margin-bottom: 15px;"><h3>',
+        'after_title'   => '</h3></div>',
+    ));
 }
 add_action('widgets_init', 'register_widget_areas');
