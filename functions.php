@@ -718,10 +718,10 @@ function register_widget_areas() {
         'name'          => __('Beside Lifestyle'),
         'id'            => 'beside-lifestyle',
         'description'   => __('Add widgets here.'),
-        'before_widget' => '',
-        'after_widget'  => '',
-        'before_title'  => '',
-        'after_title'   => '',
+        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<div class="SectionTitle"><h3>',
+        'after_title'   => '</h3></div>',
     ));
 }
 add_action('widgets_init', 'register_widget_areas');
