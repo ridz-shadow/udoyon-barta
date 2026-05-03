@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@100..900&display=swap');
-
 html,
 body {
     overflow-x: hidden;
@@ -12,7 +10,7 @@ body {
 }
 
 body {
-    font-family: 'Noto Serif Bengali';
+    font-family: 'Star News';
     font-size: 16px;
     background: #ffffff;
     color: #333;
@@ -26,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Noto Serif Bengali';
+    font-family: 'Star News';
     margin-bottom: 0;
     font-size: 17px;
     line-height: 1.6;

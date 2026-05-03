@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Star News';
+    src: url('../fonts/StarNews-ExtraLight-V1.1.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Star News';
+    src: url('../fonts/StarNews-Light-V1.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Star News';
+    src: url('../fonts/StarNews-Regular-V1.1.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Star News';
+    src: url('../fonts/StarNews-SemiBold-V1.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Star News';
+    src: url('../fonts/StarNews-Bold-V1.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Star News';
+    src: url('../fonts/StarNews-Black-V1.1.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}

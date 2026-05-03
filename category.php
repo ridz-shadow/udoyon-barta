@@ -71,6 +71,7 @@
     />
     <link rel="stylesheet" type="text/css" href="<?php echo esc_url(get_template_directory_uri() . "/frontend/common/css/SolaimanLipi.css"); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo esc_url(get_template_directory_uri() . "/frontend/common/css/Kiron.css"); ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo esc_url(get_template_directory_uri() . "/frontend/common/css/starnews.css"); ?>">
 
     <link rel="stylesheet" type="text/css" href="<?php echo esc_url(get_template_directory_uri() . "/frontend/common/css/eMythMakers.css?t=2"); ?>">
 
@@ -431,7 +432,7 @@ if ( isset( $locations[ $menu_name ] ) ) {
         <div id="myHeader" style="margin-top: 10px;">
             <div class="DHeaderNav" style="border: none;">
                 <div class="container">
-                    <div style="display: flex; align-items: center; background: #f9f9f9; height: 40px; border: 1px solid #ddd; font-family: 'Noto Serif Bengali', Arial, sans-serif; overflow: hidden; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+                    <div style="display: flex; align-items: center; background: #f9f9f9; height: 40px; border: 1px solid #ddd; font-family: 'Star News', Arial, sans-serif; overflow: hidden; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
                         <div style="background: #c2272d; color:rgb(82, 67, 67); padding: 0 20px; height: 100%; color: white; display: flex; align-items: center; font-weight: bold; font-size: 18px; z-index: 10; white-space: nowrap; position: relative; box-shadow: 2px 0 5px rgba(0,0,0,0.1);">
                             সর্বশেষ
                         </div>
