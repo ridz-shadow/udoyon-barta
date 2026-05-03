@@ -488,7 +488,7 @@ if ( isset( $locations[ $menu_name ] ) ) {
                     $current_cat = get_queried_object();
 
                     $subcategories = get_categories( array(
-                        'child_of'   => $current_cat->term_id,
+                        'parent'     => $current_cat->term_id,
                         'hide_empty' => false
                     ) );
 
